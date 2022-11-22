@@ -1,0 +1,238 @@
+/*Formatação do cabeçalho*/
+body{
+background-color: rgb(184, 217, 246); /*Cor de fundo da página*/ 
+font-family: 'Times New Roman', Times, serif; /*Estilo da fonte*/
+font-size: 23px; /*Tamanho do texto*/
+color: hsl(240, 43%, 29%); /*Cor do texto*/
+
+}
+
+.estilo1{
+   background-color: rgb(245, 245, 250) ;
+   align-items: center; /*Alinhamento dos itens no centro*/
+   margin: 0 auto; /*Alinhamento da margem para o centro*/
+   padding: 25px;
+}
+
+.estilo1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; /*Alinhamento do texto*/
+    color:rgb(216, 162, 223)
+}
+
+.estilo1 table{
+    width: 30%; /*Largura*/
+    padding:40px; /*Espaçamento de itens*/
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.estilo1 img{
+    width: 150px;
+    height: 100px; /*Altura*/
+    margin: 0 auto;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 120px;
+    left: 565px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin: 0 auto;    
+}
+
+nav#menu{
+    display: block;
+    margin: 0 auto;
+}
+
+nav#menu a{
+    color: mediumblue;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: dodgerblue;
+    text-decoration: wavy;
+    transition: all 0.5s;
+
+}
+/*Formatação index / Corpo do site*/
+.estilo2 img{
+    width: 700px;
+    height: 500px; /*Altura*/
+    margin: 0 auto;
+}
+
+.estilo2{
+    font-family: monotype corsiva;
+    font-size: 50px;
+    color: rgb(180, 5, 166);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.estilo2 table{
+    width: 30%; /*Largura*/
+    padding: 30px; /*Espaçamento de itens*/
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+
+}
+/*Formatação destinos*/
+.estilo3 img{
+    width: 350px;
+    height: 250px; /*Altura*/
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+.estilo3 table{
+    width: 30%; /*Largura*/
+    padding: 40px; /*Espaçamento de itens*/
+    align-items: center;
+    font-family: monotype corsiva;
+    font-size: 40px; 
+}
+
+.estilo3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: rgba(173, 26, 149, 0.712);
+    text-align: center;
+    margin: 0 auto;
+}
+.img-container{
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform 0.5s ease;
+}
+
+.img-container:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+/*Formatação Quem Somos*/
+.estilo4 img{
+    width: 800px;
+    height: 400px; /*Altura*/
+    margin: 0 auto;
+    border-radius: 25px;
+    
+}
+
+.estilo4{
+    font-family: 'monotype corsiva';
+    font-size: 40px;
+    color:rgb(160, 68, 236);
+    text-align: center;
+    margin: 0 auto; 
+
+}
+
+.estilo5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:rgb(209, 47, 187);
+    text-align: center;
+    margin: 0 auto;
+}
+
+  /* Grid styles -------------------------------------------------*/
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .cards {
+    max-width: 960px;
+    margin: 0 auto 30px;
+  }
+  
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+
+  .article-img{
+    position:relative;
+    top: 0;
+}
+
+  .article-img :hover{
+    top: -4px;
+    box-shadow: 0 4px 4px #666;
+    transition: all .2s ease-in-out;
+}
+  .article-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgba(250, 247, 247, 0.2);
+  }
+/*Formatação rodapé*/
+  .roda {
+    margin: 0 auto;
+    height: 60px;
+    width: 310px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color:rgba(108, 178, 240, 0.18);
+    border-radius: 35px;
+  }
+
+  .roda-img{
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      padding-left: 15px;
+  }
+
+  .page-footer{
+    margin: 0 auto;
+    width: 600px;
+    background-color: rgb(184, 217, 246);
+    text-align: center;
+    padding: relative;
+    top: 0px;
+    padding-top: 50px;
+  }
+
+  .page-footer p{
+      color: black;
+      text-align: center;
+      margin-bottom: -20px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      padding-right: 280px;
+  }
+ 
